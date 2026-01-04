@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basil 的家｜在安曼，一個讓人安心的地方</title>
+  <meta name="description" content="這不只是一個住宿，而是一段會被你帶走的溫暖記憶。" />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC",
+                   "PingFang TC", "Microsoft JhengHei", sans-serif;
+      color: #2c2c2c;
+      background: #fafafa;
+      line-height: 1.8;
+    }
+    header { position: relative; height: 100vh; overflow: hidden; }
+    .carousel {
+      display: flex;
+      width: 300%;
+      height: 100%;
+      animation: slide 18s infinite;
+    }
+    .carousel img { width: 100vw; object-fit: cover; }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      33% { transform: translateX(-100vw); }
+      66% { transform: translateX(-200vw); }
+      100% { transform: translateX(0); }
+    }
+    .hero-text {
+      position: absolute;
+      bottom: 15%;
+      left: 8%;
+      background: rgba(255,255,255,0.9);
+      padding: 2rem;
+      max-width: 520px;
+      border-radius: 14px;
+    }
+    section { padding: 4rem 8%; }
+    h1, h2 { font-weight: 600; }
+    .pill {
+      display: inline-block;
+      background: #eee;
+      padding: 0.4rem 0.9rem;
+      border-radius: 999px;
+      margin: 0.3rem;
+      font-size: 0.9rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    }
+    footer {
+      background: #2c2c2c;
+      color: #fff;
+      padding: 3rem 8%;
+    }
+    a.button {
+      display: inline-block;
+      background: #2c2c2c;
+      color: #fff;
+      padding: 0.8rem 1.6rem;
+      border-radius: 999px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="carousel">
+    <img src="images/IMG_3846.jpeg" alt="花園入口" />
+    <img src="images/IMG_3838.jpeg" alt="客廳空間" />
+    <img src="images/IMG_3839.jpeg" alt="拱門牆面" />
+  </div>
+  <div class="hero-text">
+    <h1>在安曼，有一個地方<br>讓你真正放下心來</h1>
+    <p>
+      這不只是一個住宿，<br>
+      而是一段你會在旅程結束後，依然記得的溫暖回憶。
+    </p>
+    <a class="button" href="https://www.airbnb.com/rooms/1485462051241347445" target="_blank">
+      前往 Airbnb 查看房源
+    </a>
+  </div>
+</header>
+
+<section>
+  <h2>為什麼這裡，會讓人一住就愛上？</h2>
+  <div class="grid">
+    <div class="card">
+      <strong>🏰 像小城堡一樣的家</strong>
+      <p>
+        石牆、拱門、自然光灑落的空間，
+        第一眼就讓人感到安靜而安心。
+      </p>
+    </div>
+    <div class="card">
+      <strong>🌿 安靜卻便利的地點</strong>
+      <p>
+        位在優美的住宅區，
+        可以散步前往城市景點，
+        也能輕鬆搭 Uber 抵達安曼各處。
+      </p>
+    </div>
+    <div class="card">
+      <strong>🤍 被真正照顧的感覺</strong>
+      <p>
+        從入住前的關心訊息，
+        到旅途中的在地建議，
+        你會知道，自己不是一個人。
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>適合這樣的你</h2>
+  <span class="pill">獨自旅行者</span>
+  <span class="pill">情侶／夫妻</span>
+  <span class="pill">家庭與朋友同行</span>
+  <span class="pill">長住旅人</span>
+  <span class="pill">第一次到中東</span>
+</section>
+
+<section>
+  <h2>關於你的 Host —— Basil</h2>
+  <p>
+    Basil 已經在安曼接待旅人超過三年。
+    他最在意的不是評價數，而是：
+    你是否感到安全、是否住得安心、是否被尊重。
+  </p>
+  <p>
+    對第一次來到中東的旅人來說，
+    這裡不只是落腳的地方，
+    而是一個讓你重新充電、慢下來的家。
+  </p>
+</section>
+
+<section>
+  <h2>旅人的真心話</h2>
+  <p><em>
+    「這不只是一個地方，<br>
+    而是一段會在旅程結束後，仍然留在心裡的溫暖記憶。」
+  </em></p>
+</section>
+
+<footer>
+  <h2>如果你正計畫前往約旦</h2>
+  <p>
+    我真心希望，你能在這裡住上幾晚。
+    讓這趟旅程，多一份安心與溫柔。
+  </p>
+  <a class="button" href="https://www.airbnb.com/rooms/1485462051241347445" target="_blank">
+    查看空房與價格
+  </a>
+</footer>
+
+</body>
+</html>
